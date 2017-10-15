@@ -6,9 +6,7 @@ nav_exclude: true
 # Note that this index page uses a full-width layout!
 ---
   <br/>
-  <center><img src="{{site.baseurl}}/assets/img/construction.gif"></img></center>
   <ul class="content-listing ">
-    {% comment %}
     {% for post in site.posts %}      
         <li class="listing">
           <hr class="slender">
@@ -17,5 +15,4 @@ nav_exclude: true
           <div>{{ post.excerpt }}</div> 
         </li>
     {% endfor %}
-    {% endcomment %}
   </ul>
