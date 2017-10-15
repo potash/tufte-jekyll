@@ -17,7 +17,7 @@ Stretching over 18 miles from Edgewater to South Shore, Chicago’s lakefront tr
 
 But calling it a trail is a bit absurd as it runs almost adjacent to the four-lane monstrosity that is Lake Shore Drive. What’s the farthest this “trail” gets from a road? 608 feet (.11 miles), when it goes east around Museum Campus:
 
-{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' %}
+{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 %}
 
 {% higherground montrose   -87.63199 41.96656 'https://i.imgur.com/Wo9WkYc.jpg' 1595 %}
 {% higherground powderhorn -87.52820 41.64467 'https://i.imgur.com/FFz1iDz.jpg' 1614 %}
