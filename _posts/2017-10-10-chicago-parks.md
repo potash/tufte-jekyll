@@ -24,7 +24,7 @@ You won’t find solitude on the lakefront trail. What about Chicago’s largest
 ## 7. Lincoln Park: 1,595 ft
 The farthest point from a road in Lincoln Park is the Montrose Point Bird Sancturary.
 
-> During the Cold War, Montrose point, which juts out into Lake Michigan, was used by the United States Army as a Nike missile base. The Army camouflaged their missile launchers and barracks behind honeysuckle hedges. [Wikipedia](https://en.wikipedia.org/wiki/Lincoln_Park)
+> During the Cold War, Montrose point, which juts out into Lake Michigan, was used by the United States Army as a Nike missile base. The Army camouflaged their missile launchers and barracks behind honeysuckle hedges. ([Wikipedia](https://en.wikipedia.org/wiki/Lincoln_Park))
 {% higherground montrose   -87.63199 41.96656 'https://i.imgur.com/Wo9WkYc.jpg' 1595 %}
 
 ## 6. Powderhorn Marsh and Prairie: 1,614 ft
@@ -46,7 +46,7 @@ Powers Recreation Area is another former Nike missile site. There's not much to 
 {% higherground powers     -87.53181 41.66287 'https://i.imgur.com/r3e9kBC.jpg' 1814 %}
 
 ## 2. Big Marsh (2,324 ft)
-> Once the site of a waste and slag dumping ground from surrounding industrial operations since the late 1800s, the City of Chicago and the Chicago Park District teamed up in early 2000s to restore this area to a healthy habitat and eco-recreation park.  The Chicago Park District acquired the site in 2011... [Chicago Park District](http://www.chicagoparkdistrict.com/parks/big-marsh-park-no564/)
+> Once the site of a waste and slag dumping ground from surrounding industrial operations since the late 1800s, the City of Chicago and the Chicago Park District teamed up in early 2000s to restore this area to a healthy habitat and eco-recreation park.  The Chicago Park District acquired the site in 2011... ([Chicago Park District](http://www.chicagoparkdistrict.com/parks/big-marsh-park-no564/))
 {% higherground bigmarsh   -87.56799 41.69063 'https://i.imgur.com/pskOvVm.jpg' 2324 %}
 
 ## 1. Park No. 566 (2,614 ft)
@@ -54,8 +54,11 @@ The farthest point from a road in Chicago lies on the former site of U.S. Steel 
 
 {% higherground park566    -87.53085 41.74773 'https://i.imgur.com/mCg3C5H.jpg' 2614 %}
 
-## Bonus: Calumet Breakwater (6,066 ft)
-It's not on park land but I can't resist including this concrete barrier that stretches more than TODO miles into Lake Michigan to protect Calumet Harbor.
+
+TODO: something about south side. industrial and military. I'll conclude with a bonus:
+
+## Calumet Breakwater (6,066 ft)
+It's not a park, but I can't resist including this concrete barrier that protects Calumet Harbor, stretching more than TODO miles into Lake Michigan. The lighthouse at the end is technically in Indiana waters!
 
 {% higherground calumet    -87.50793 41.73683 'https://i.imgur.com/SxfN0JY.jpg' 6066 %}
 
