@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: full-width
 title:  "The 7 Most Remote Chicago Parks"
 date:   2017-10-15
 categories:
