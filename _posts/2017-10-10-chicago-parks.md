@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title:  "The 7 Most Remote Chicago Parks"
-date:   2017-10-15
+date:   2017-11-05
 categories:
 custom_js: 
  - pannellum
@@ -12,7 +12,6 @@ custom_css:
  - leaflet
  - higher_ground
 ---
-
 Stretching over 18 miles from Edgewater to South Shore, Chicago’s lakefront trail is perhaps the city’s most iconic park. But the term "trail" is absurd. For most of its length, the paved path runs adjacent to a four lane highway!
 
 That observation led me to wonder about the points in Chicago that are farthest from a road. So I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the maximum distance to road within that park.
