@@ -1,18 +1,25 @@
 access_token = 'pk.eyJ1IjoiZXBvdGFzaCIsImEiOiJjaXFqeDBpNTUwMGk5ZnhtOGN4ZjJ2MHhmIn0.r5jxF47AZ4lwsr6ADeKbAA'
 meters_per_foot = 0.3048
 
+viewers = []
+maps = []
+
 function higher_ground(args) {
     name = args[0]
     lng = parseFloat(args[1])
     lat = parseFloat(args[2])
     imageUrl = args[3]
     distance = args[4]
+    yaw = args[5]
 
-    pannellum.viewer(name + '-panorama', {
+    viewers[name] = pannellum.viewer(name + '-panorama', {
         "type": "equirectangular",
         "panorama": imageUrl,
-        "vaov":"54.15", "hfov":"60",
-        "minPitch":"-25","maxPitch":"25",
+        "yaw": yaw,
+        "vaov": 54.15,
+        "hfov": 20,
+        "minPitch":-25,
+        "maxPitch":25,
         "autoLoad":true
     });
 
@@ -30,4 +37,6 @@ function higher_ground(args) {
         fillOpacity: 0.5,
         radius: distance * meters_per_foot
     }).addTo(mymap);
+
+    maps[name] = mymap
 }
