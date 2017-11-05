@@ -11,7 +11,7 @@ module Jekyll
     def render(context)
       %(
 <p></p>
-<figure id='#{@text[0]}' class='higherground'>
+<figure id='#{@text[0]}' class='higherground fullwidth'>
     <div id='#{@text[0]}-panorama' class='higherground_panorama'></div>
     <div id='#{@text[0]}-map' class='higherground_map'></div>
     <figcaption>#{@text[6]}</figcaption>
