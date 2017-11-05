@@ -5,7 +5,7 @@ weight: 2
 ---
 ## Policy
 
-{% newthought 'Childhood Lead Poisoning' %}
+{% newthought 'Lead Poisoning' %}
 <small>
 [[KDD '15]({{site.baseurl}}/assets/pdf/lead_kdd.pdf)]
 [[GitHub](https://github.com/potash/lead-public)]
