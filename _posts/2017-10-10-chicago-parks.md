@@ -2,7 +2,6 @@
 layout: full-width
 title:  "The 7 Most Remote Chicago Parks"
 date:   2017-11-05
-title_include: true
 categories:
 custom_js: 
  - pannellum
@@ -17,10 +16,13 @@ Stretching over 18 miles from Edgewater to South Shore, Chicago’s lakefront tr
 <!--more-->
 That observation led me to wonder about the points in Chicago that are farthest from a road. So I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the maximum distance to road within that park.
 
-How remote is the Lakefront trail? Just 608 feet (.11 miles), achieved when the path goes east around Museum Campus:
-{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 %}
+How remote is the Lakefront trail? Just 608 feet, when the path goes east around Museum Campus:
+{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 "Above, a panorama I short at the point farthest from a road in the Lakefront trail. Below, a map with a marker at the point and a circle of radius equal to the distance to the nearest road, so the each circle contains no roads." %}
+<br/>
 
-Next I visited the most remote points in Chicago's parks. I was surprised by just how remote these spots were. I was even more surprised by the beauty that my simplistic measure of remoteness led me to. Notably, most of the parks (5 of the top 7) are on Chicago's South Side. But that's neither a coincidence nor a generous gift from City Council. It's part of recurring story in land use history across the country: the conversion of former industrial and military sites into parks.
+Next I visited the most remote points in Chicago's parks. I was surprised in a number of ways. First, by just how remote these spots are. Second, by the beauty that my simplistic measure of remoteness led me to. Third, by the fact that 5 of the top 7 are on Chicago's South Side. But that's not a coincidence. Nor can it be principally attributed to the city's generosity (to a side of town it otherwise neglects). The abundance of park land on Chicago's South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.
+
+For each site, I've included a panorma photo that I took at (or near) the point farthest from a road. I've also included a map with a marker for the point farthest from a road and a circle whose radius is the distance to the nearest road.
  
 ## 7. Lincoln Park: 1,595 ft
 Lincoln park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sancturary.
@@ -29,11 +31,11 @@ Lincoln park is Chicago’s largest park at 1,208 acres. There’s a lot to see,
 {% higherground montrose   -87.63199 41.96656 'https://i.imgur.com/Wo9WkYc.jpg' 1595 -72 %}
 
 ## 6. Powderhorn Marsh and Prairie: 1,614 ft
-> Tucked between rail yards and neighborhoods at the far southeast side of Chicago, Powderhorn Lake Forest Preserve’s 192 acres of woodland, prairie and wetland reflect the ecological richness that survives in similar pockets across the industrialized Calumet region. The lake and surrounding lands are popular among anglers, nature lovers and birders. [FPDCC](http://fpdcc.com/powderhorn-lake/)
+> Tucked between rail yards and neighborhoods at the far southeast side of Chicago, Powderhorn Lake Forest Preserve’s 192 acres of woodland, prairie and wetland reflect the ecological richness that survives in similar pockets across the industrialized Calumet region. The lake and surrounding lands are popular among anglers, nature lovers and birders. ([FPDCC](http://fpdcc.com/powderhorn-lake/))
 {% higherground powderhorn -87.52820 41.64467 'https://i.imgur.com/FFz1iDz.jpg' 1614 32 %}
 
 ## 5. Beaubian Woods: 1,633 ft
-> Before European settlement, Beaubien Woods was a wet prairie and open savanna community. Early agriculture and grazing altered the soil and removed native vegetation. Railroad and expressway construction further damaged soils and cleared areas for use in construction staging.
+> Before European settlement, Beaubien Woods was a wet prairie and open savanna community. Early agriculture and grazing altered the soil and removed native vegetation. Railroad and expressway construction further damaged soils and cleared areas for use in construction staging. ([FPDCC](http://fpdcc.com/beaubien-woods/))
 {% higherground beaubian   -87.58553 41.64588 'https://i.imgur.com/BbhuS7w.jpg' 1633 131 %}
 
 ## 4. Catherine Chevalier Woods: 1,650 ft

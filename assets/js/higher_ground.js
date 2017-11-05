@@ -17,18 +17,20 @@ function higher_ground(args) {
         "panorama": imageUrl,
         "yaw": yaw,
         "vaov": 54.15,
-        "hfov": 20,
+        //"hfov": 30,
         "minPitch":-25,
         "maxPitch":25,
         "autoLoad":true
     });
 
     var mymap = L.map(name + '-map').setView([lat, lng], 13);
+    /*
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + access_token, {
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>; © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18,
             id: 'mapbox.streets',
     }).addTo(mymap);
+    */
 
     var marker = L.marker([lat, lng]).addTo(mymap);
     var circle = L.circle([lat, lng], {

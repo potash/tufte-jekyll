@@ -10,10 +10,11 @@ module Jekyll
 
     def render(context)
       %(
-<figure id='#{@text[0]}' class='higherground_figure'>
-    <p></p>
+<p></p>
+<figure id='#{@text[0]}' class='higherground'>
     <div id='#{@text[0]}-panorama' class='higherground_panorama'></div>
     <div id='#{@text[0]}-map' class='higherground_map'></div>
+    <figcaption>#{@text[6]}</figcaption>
 </figure>
 <script>higher_ground(#{@text})</script>
     )
