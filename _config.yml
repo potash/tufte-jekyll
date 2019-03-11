@@ -27,3 +27,8 @@ transfer:
   source: _site/
   destination: ~/Git/clayh53.github.com/
 google_analytics: UA-92954464-1
+collections:
+    teaching:
+        output: true
+        permalink: /teaching/:path/
+
