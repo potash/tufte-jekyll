@@ -1,6 +1,6 @@
 ---
+title: Introduction to Program Evaluation
 layout: full-width
-title: Teaching
 weight: 2
 ---
 # Introduction to Program Evaluation
@@ -16,25 +16,21 @@ This course will teach students how to answer public policy questions using regr
 
 ## Books and Resources
 
-We will loosely follow two textbooks:
-
-*Regression and Other Stories* (RAOS) by Andrew Gelman, Jennifer Hill, and Aki Vehtari. This book is not yet published. I will distribute photocopies of the relevant excerpts in class. These have been generously shared by the authors of this book for our class. You may not re-distribute them.
-
-*R for Data Science* (r4ds) by Hadley Wickham and Garrett Grolemund. This book is available for free [online](https://r4ds.had.co.nz/). You may purchase a print copy if you prefer.
+*Regression and Other Stories* (RAOS) by Andrew Gelman, Jennifer Hill, and Aki Vehtari. This book is not yet published. I will distribute photocopies in class. These have been generously shared with us by the authors. You may not re-distribute them.
 
 ## Grading
 
-### Assignments (60%)
-Weekly assignments covering the previous weeks' material will be due on Thursdays before class (12:30pm) via Canvas. There will be 7 assignments total (no assignment due in Weeks 1, 5). Your lowest assignment score will be dropped.
+### Assignments (50%)
+Most weeks, I will share an assignment at the end of class on Thursday covering that week's material. The assignment will be due the following Thursday before class (12:30pm) via Canvas. There will be 7 assignments total (no assignment due in weeks 1, 5, or 10). Your lowest assignment score will be dropped.
 
-### Exams (40%)
-There will be two take-home exams. A midterm in week 5 will be worth 15% of your grade and a final after week 10 worth 25%.
+### Exams (50%)
+There will be two take-home exams. A midterm in week 5 will be worth 20% of your grade and a final after week 10 worth 30%.
 
 ### Plagiarism Policy
 Writing code is substantially different from writing essays: it is standard practice to find individual functions or google things that don’t work, and copy a line or two from a manual or Stack Overflow. I encourage you to discuss general strategies for solving problems with your classmates and friends. Questions and answers on the discussion board will naturally include code. However – you should never ask to see another’s solutions, and you absolutely should not copy code from your classmates. No one but you should type your code.
 
 ## Software
-In this course we will be using a programming language called R analyze and visualize data. You will need to install three pieces of software. First install the R programming language itself. Next install RStudio. This is what's called an *integrated development environment*. It makes using R programming easier and more productive. Finally, install an R package called *tidyverse*. You'll find instructions for all of this in sections [1.4.1-1.4.3](https://r4ds.had.co.nz/introduction.html#r) of r4ds.
+In this course we will be using a programming language called R analyze and visualize data. You will need to install three pieces of software. First install the R programming language itself. Next install RStudio. This is what's called an *integrated development environment*. It makes using R programming easier and more productive. Finally, install an R package called *tidyverse*. You'll find instructions for all of this in sections [1.4.1-1.4.3](https://r4ds.had.co.nz/introduction.html#r) of the textbook R for Data Science.
 
 ## Syllabus
 This syllabus is tentative and will be updated throughout the quarter. Links to lectures, readings, and assignments will be posted each week.
@@ -64,6 +60,7 @@ Assignment 3 due
 ### April 30: Modeling assumptions, diagnostics and evaluation
 
 ### May 2: Midterm
+Due May 3
 
 ### May 7: Transformations
 
@@ -89,6 +86,6 @@ Assignment 6 due
 
 Assignment 7 due
 
-### June 4: Introduction to Instrumental Variables
+### June 4: Topics: Instrumental variables, missing data, multilevel models, etc.
 
 ### TBD: Take-home Final
